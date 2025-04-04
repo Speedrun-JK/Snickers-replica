@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(233, 159, 1, 0.938);
+
+}
+.snikers{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    display: flex; 
+}
+@keyframes move {
+0%{
+    top: 0px;
+}
+50%{
+    top: 50px;
+}
+100%{
+    top: 0px;
+}
+ 
+}
+.bounty{
+    width: 700px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    display: flex;
+    margin-left: 800px;
+    margin-top: -200px;   
+    
+} 
+.mars{
+    width: 700px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    display: flex;
+    margin-left: 1700px;
+    margin-top: 205px;   
+    
+}
+.h1{
+    display: flex;
+    font-size: 70px;
+    font-style: unset;
+    margin-left: 800px;
+    background-color:  rgba(12, 190, 6, 0.808);
+    width: 700px;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: 5px solid;
+    color: rgb(18, 110, 6);
+    
+}
+.h1:hover{
+    transition: all ease 1s;
+    transform: scale(1.1);
+    background-color: rgb(0, 255, 42);
+    cursor: pointer;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    display: flex;
+    margin-top: 100px;
+    border: 10px solid;
+    border-color: black;
+}
+ul{
+    margin-left: 190px ;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-size: 60px;
+    background-color: rgb(230, 186, 129);
+    border-radius: 20px;
+    height: 80px;
+    width: 270px;
+    border: 3px solid;
+
+}
+ul:hover{
+    transition: all ease 1s;
+    transform: scale(1.05);
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.back{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://www.marsbar.ca/sites/g/files/fnmzdf1101/files/2022-11/opengraphimage_mars.jpg);
+    margin-top: 73px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.418);
+    background-blend-mode: darken;
+}
+.mars1{
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 400px;
+    border: 5px solid;
+    border-color: chocolate;
+}
+.marsB{
+   
+    font-size: 60px;
+    background-color: rgb(252, 255, 74);
+    width: 175px;
+    border-radius: 20px;
+    border: 4px solid;
+    margin-left: 207PX;
+    margin-top: -6px;
+    border-color: green;
+    width: 380px;
+    text-align: center;
+}
+.marsB:hover{
+    transition: all ease 1s;
+    transform: scale(1.01);
+    background-color: rgb(30, 255, 0);
+    cursor: pointer;
+    width: 388px;
+    
+}
+.snikers1{
+    display: flex;
+    margin-left: 900px;
+    margin-top: -477px;
+    width: 400px;
+    border: 5px solid;
+    border-color: greenyellow;
+}
+.snikersB{
+    font-size: 60px;
+    background-color: rgb(252, 255, 74);
+    width: 175px;
+    border-radius: 20px;
+    border: 4px solid;
+    margin-left: 907PX;
+    margin-top: -4px;
+    border-color: green;
+    width: 380px;
+    text-align: center;
+    height: 70px;
+}
+.snikersB:hover{
+    transition: all ease 1s;
+    transform: scale(1.01);
+    background-color: rgb(30, 255, 0);
+    cursor: pointer;
+    width: 395px;
+  
+    
+}
+.MarsBu{
+    text-decoration: none;
+    color: black;
+}
+.bounty1{
+    display: flex;
+    margin-left: 1600px;
+    margin-top: -507px;
+    width: 400px;
+    border: 5px solid;
+    border-color: greenyellow;
+}
+.bountyB{
+    font-size: 60px;
+    background-color: rgb(252, 255, 74);
+    width: 175px;
+    border-radius: 20px;
+    border: 4px solid;
+    margin-left: 1605PX;
+    margin-top: -73px;
+    border-color: green;
+    width: 380px;
+    text-align: center;
+    height: 70px;
+    text-decoration: none;
+    color: black
+}
+.bountyB:hover{
+    transition: all ease 1s;
+    transform: scale(1.01);
+    background-color: rgb(30, 255, 0);
+    cursor: pointer;
+    width: 395px;
+}
+
+
+.text{
+    font-style: initial;
+    color: aliceblue;
+    display: flex;
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    margin-top: -1000px;
+    position: relative;
+    top:400px;
+    left: 800px;
+
+}
+
+.POPCORN {
+    background-image: url(https://p1.aprimocdn.net/marssnacking/89962b7c-ba91-49d4-85f4-b1e800dcc4a2/89962b7c-ba91-49d4-85f4-b1e800dcc4a2_DownloadAsJpg.jpg?width=1360&height=583&fit=bounds&quality=90);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    margin-top: 1000px;
+    background-color: rgba(0, 0, 0, 0.418);
+    background-blend-mode: darken;
+}
+.view{
+    margin-top: 500px;
+    margin-left: 1100px;
+    height: 100px;
+    width: 250px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.view:hover{
+    transition: all ease 1s;
+    background-color: rgb(0, 102, 255);
+    cursor: pointer;
+    width: 260px;
+}
+.recipes{
+    display: flex;
+    width: 500px;
+    height: 700px;
+    background-color: rgba(95, 33, 5, 0.945);
+    margin-left: 2000px;
+    margin-top: -680px;
+    border-radius: 30px;
+    border: solid;
+    
+}
+.rimg{
+    display: flex;
+    width: 430px;
+    height: 145px;
+    margin-left: 35px;
+    margin-top: 150px;
+}
+.recipes:hover{
+    transition: all ease 1s;
+    background-color: rgb(0, 29, 71);
+    cursor: pointer;
+   
+}
+.oz{
+    display: flex;
+    font-size: 40px;
+    margin-left: -430px;
+    margin-top: 400px;
+    color: aliceblue;
+    width: 470px;
+    height: 0px;
+}
+.detail{
+    font-style: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 600px;
+    margin-left: -450px;
+    height: 75px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: rgb(0, 102, 255);
+    cursor: pointer;
+    border: solid;
+
+}
+.detail:hover{
+    transition: all ease 1s;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.where{
+    font-style: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 600px;
+    margin-left: -220px;
+    height: 75px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: rgb(0, 102, 255);
+    cursor: pointer;
+    border: solid;
+
+}
+.where:hover{
+    transition: all ease 1s;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
